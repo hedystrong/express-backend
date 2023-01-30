@@ -1,0 +1,30 @@
+### 
+
+POST http://localhost:9000/users
+Content-Type: application/json;
+
+{
+    "id":3, "name": "Bold",
+    "id": 1, "age": 20,
+    "id":2, "age":25,
+    
+}
+###
+
+DELETE http://localhost:9000/user
+Content-Type: application/json
+
+{
+    "id":"3a4deb68-9772-4e49-8341-f56a8039a3fd"
+}
+
+###
+get http://localhost:9000/users
+
+###
+PUT http://localhost:9000/user
+Content-Type: application/json
+
+{
+    "id":5
+}
